@@ -1,0 +1,125 @@
+body{
+    background-color:rgb(226, 134, 79);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.parallax{
+    background-image: url(images/cat_header.jpg);
+    min-height: 800px; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: ;
+}
+h1, h2, h3, h4{
+    font-family:'Fjalla One', sans-serif;
+    color: ghostwhite;
+    text-decoration:underline
+    
+    
+}
+h2{
+    background-color:rgb(234, 179, 123);
+    font-size: 50px;
+    padding: 20px;
+}
+h3{
+    font-size:30px;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:ghostwhite;
+    font-size: 24px;
+    line-height: 1.8;
+    hyphens: none;
+}
+
+.caption {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:ghostwhite;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    background-color: rgb(164, 46, 6);
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar ul li :hover {
+  background-color: rgb(226, 134, 79);
+  color: rgb(164, 46, 6);
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    
+}
+
+.navbar ul{
+    text-align: center;
+}
+
+.navbar ul li a{
+    font-family: 'Fjalla One', sans-serif;
+    color:rgb(226, 134, 79);
+    text-align: center;
+    font-size: 30px;  
+}
+
+.two_col{
+    width: 520px;
+    margin: 10px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.three_col{
+    width: 340px;
+    margin: 10px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+footer{
+    background-color:rgb(164, 46, 6);
+    background-size: 50px;
+    padding: 50px;
+    text-align: center;
+}
+.footer{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:ghostwhite;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.bfc_full{
+    width:75%;    
+}
+.bfc_face{
+    width:100%
+}
+.bfc_body{
+    width:100%
+} 
